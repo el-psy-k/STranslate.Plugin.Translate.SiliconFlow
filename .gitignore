@@ -1,0 +1,51 @@
+# .gitignore for STranslate Plugin
+
+# Build results
+[Aa]rtifacts/
+[Oo]bj/
+[Bb]in/
+[Dd]ebug/
+[Dd]ebugPublic/
+[Rr]elease/
+[Rr]eleases/
+x64/
+x86/
+[Ll]og/
+*.pdb
+*.dll
+*.exe
+*.nupkg
+*.spkg
+
+# IDE
+.vs/
+.idea/
+
+# User-specific files
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Solution files
+*.sln
+
+# Test results
+[Tt]est[Rr]esult/
+[Bb]uild[Ll]og/
+
+# NUnit
+*.VisualState.xml
+TestResult.xml
+
+# .NET Core
+project.assets.json
+project.lock.json
+project.fragment.lock.json
+*.lock.json
+*.csproj.nuget*.props
+*.csproj.nuget*.targets
+
+# Cake / FAKE
+tools/
+.fake/
